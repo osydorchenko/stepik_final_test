@@ -16,3 +16,4 @@ class PageObjectLocators:
     OBJECT_PRICE = (By.CSS_SELECTOR, ".product_main p")
     OBJECT_NAME_ADDED = (By.CSS_SELECTOR, "#messages .alert-safe:first-child .alertinner strong")
     OBJECT_PRICE_ADDED = (By.CSS_SELECTOR, "#messages .alert-safe:last-child .alertinner strong")
+    SUCCESS_MESSAGE = (By.CSS_SELECTOR, ".alert-success")
