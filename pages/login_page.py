@@ -3,6 +3,7 @@ from .locators import LoginPageLocators
 
 
 class LoginPage(BasePage):
+    register_email =
     def register_new_user(self, email, password):
         self.email = email
         self.password = password
